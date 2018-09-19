@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atomic Character 1`] = `
+<MemoryRouter
+  initialEntries={
+    Array [
+      Object {
+        "key": "testKey",
+        "pathname": "/",
+      },
+    ]
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "testKey",
+            "pathname": "/",
+            "search": "",
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "testKey",
+          "pathname": "/",
+          "search": "",
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Character
+      autoload={false}
+    >
+      <li>
+        <Image
+          size={150}
+          src="https://loading.io/spinners/interwind/lg.ball-interwind-preloader.gif"
+        >
+          <div
+            style={
+              Object {
+                "background": "url(https://loading.io/spinners/interwind/lg.ball-interwind-preloader.gif)",
+                "backgroundSize": 75,
+                "height": 150,
+                "width": 150,
+              }
+            }
+          >
+            <img
+              alt="SOLENYA!"
+              src="https://loading.io/spinners/interwind/lg.ball-interwind-preloader.gif"
+              style={
+                Object {
+                  "height": 150,
+                  "width": 150,
+                }
+              }
+              width={150}
+            />
+          </div>
+        </Image>
+      </li>
+    </Character>
+  </Router>
+</MemoryRouter>
+`;
+
+exports[`Pages Detail 1`] = `
+<MemoryRouter
+  initialEntries={
+    Array [
+      Object {
+        "key": "testKey",
+        "pathname": "/",
+      },
+    ]
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "testKey",
+            "pathname": "/",
+            "search": "",
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "testKey",
+          "pathname": "/",
+          "search": "",
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Episode
+      autoload={false}
+    >
+      <div>
+        <Loading>
+          <ul>
+            <li>
+              <Link
+                className="back"
+                replace={false}
+                to="/"
+              >
+                <a
+                  className="back"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  ⎈
+                </a>
+              </Link>
+            </li>
+          </ul>
+        </Loading>
+      </div>
+    </Episode>
+  </Router>
+</MemoryRouter>
+`;
+
+exports[`Pages Home 1`] = `
+<MemoryRouter
+  initialEntries={
+    Array [
+      Object {
+        "key": "testKey",
+        "pathname": "/",
+      },
+    ]
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "testKey",
+            "pathname": "/",
+            "search": "",
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "testKey",
+          "pathname": "/",
+          "search": "",
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Home
+      autoload={false}
+    >
+      <div>
+        <Loading>
+          <ul>
+            <li>
+              <Link
+                className="back"
+                replace={false}
+                to="/"
+              >
+                <a
+                  className="back"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  ⎈
+                </a>
+              </Link>
+            </li>
+          </ul>
+        </Loading>
+      </div>
+    </Home>
+  </Router>
+</MemoryRouter>
+`;
