@@ -81,7 +81,7 @@ export default class Character extends Component {
                             size={ 150 }
                         />
                     </div>
-                    <div style={{ float: 'left', width: '7em' }}>
+                    <div style={{ float: 'left', width: '7em', marginBottom: '1em' }}>
                         {
                             TAGS.map(
                                 ([label, path]) => 
