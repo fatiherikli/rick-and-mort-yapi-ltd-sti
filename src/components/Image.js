@@ -5,7 +5,7 @@ export default function Image({ src, size, alt }) {
         <div style={{ 
             width: size,
             height: size,
-            background: 'url(https://loading.io/spinners/interwind/lg.ball-interwind-preloader.gif)',
+            background: 'url(https://loading.io/spinners/bluecat/lg.blue-longcat-spinner.gif)',
             backgroundSize: size/2,
          }}>
             <img

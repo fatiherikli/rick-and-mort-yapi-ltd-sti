@@ -70,7 +70,7 @@ export default class Character extends Component {
             { error && <Error error={ error } />}
             { loading ? (
                 <Image
-                    src={ 'https://loading.io/spinners/interwind/lg.ball-interwind-preloader.gif' }
+                    src={ 'https://loading.io/spinners/bluecat/lg.blue-longcat-spinner.gif' }
                     size={ 150 }
                 />
             ) : (
